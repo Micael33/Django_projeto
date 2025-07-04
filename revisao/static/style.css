@@ -1,0 +1,17 @@
+/* revisao/static/revisao/style.css */
+body {
+    background-color: #a1d12f;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: darkblue;
+}
+
+h2{
+    color: aquamarine;
+}
+
+p{
+    color: blue;
+}
