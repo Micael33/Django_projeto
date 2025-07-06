@@ -25,6 +25,7 @@ STATICFILES_DIRS = [
 ]
 
 
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
@@ -64,7 +65,7 @@ ROOT_URLCONF = 'projeto_setup.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'revisao' / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
